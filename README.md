@@ -18,7 +18,7 @@ The project entails a straightforward and responsive social link interface, acce
 
 ![CEL324546](https://github.com/Flavio-sv/Social-Links-Profile/assets/124817700/66d841f7-a2a6-40bd-a7d7-e5132d027d6d)
 
-### Active State
+### Active state
 
 ![ACT453546](https://github.com/Flavio-sv/Social-Links-Profile/assets/124817700/a96cf69b-fad1-4e69-b2ed-14bd1b44c530)
 
