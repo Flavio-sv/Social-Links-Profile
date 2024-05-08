@@ -6,7 +6,7 @@ This static project was developed using HTML and CSS as part of the challenges p
 
 ## Project Overview
 
-This project involves the creation of a Social Links Dashboard.
+The project entails a straightforward and responsive social link interface, accessible on both desktop computers and mobile devices.
 
 ## Preview
 
