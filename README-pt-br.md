@@ -39,7 +39,7 @@ O projeto consiste em uma interface simples e responsiva de links sociais, que p
 
 ## Status do Projeto
 
-> ${\textsf{\color{green}Status: Finalizado}}$
+> ${\textsf{\color{green}Status: finalizado}}$
 
 ## Autor
 
