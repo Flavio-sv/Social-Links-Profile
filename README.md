@@ -39,7 +39,7 @@ The project entails a straightforward and responsive social link interface, acce
 
 ## Project Status
 
-> ${\textsf{\color{green}Status: Completed}}$
+> ${\textsf{\color{green}Status: completed}}$
 
 ## Author
 
