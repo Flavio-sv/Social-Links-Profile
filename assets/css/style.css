@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     cursor: default;
-
 }
 
 @font-face {
@@ -27,7 +26,6 @@
     --color-dark-grey: hsl(0, 0%, 12%);
     --color-off-black: hsl(0, 0%, 8%);
     --color-green: hsl(75, 94%, 57%);
-
 }
 
 body {
@@ -92,7 +90,6 @@ li {
     background-color: var(--color-grey);
     list-style: none;
     border-radius: 7px;
-
 }
 
 a {
