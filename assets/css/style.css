@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --inter-font: 'Inter', sans-serif;
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 20%);
+    --color-dark-grey: hsl(0, 0%, 12%);
+    --color-off-black: hsl(0, 0%, 8%);
+    --color-green: hsl(75, 94%, 57%);
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-off-black);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: clamp(270px, 100% - 48px, 384px);
+    height: 611px;
+    margin-top: -1px;
+    background-color: var(--color-dark-grey);
+    border-radius: 13px;
+}
+
+img {
+    width: 100%;
+    align-items: center;
+    max-width: 88px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-top: 28px;
+}
+
+.location {
+    font-family: var(--inter-font);
+    font-size: 14.1px;
+    font-weight: 600;
+    color: var(--color-green);
+    margin-top: 9px;
+}
+
+p {
+    font-family: var(--inter-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-white);
+    margin-top: 2px;
+    margin-bottom: 26px;
+}
+
+li {
+    width: calc(100vw - 96px);
+    max-width: 304px;
+    height: 45px;
+    margin-bottom: 16px;
+    background-color: var(--color-grey);
+    list-style: none;
+    border-radius: 7px;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    color: var(--color-white);
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 14.2px;
+}
+
+a:hover {
+    cursor: url('../images/handcursor.svg') 7 0, pointer;
+    color: var(--color-off-black);
+    background-color: var(--color-green);
+}
